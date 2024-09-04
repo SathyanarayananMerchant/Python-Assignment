@@ -1,0 +1,5 @@
+m1=int(input('Enter mass for obj1='))
+m2=int(input('Enter mass for obj2='))
+d=int(input('Enter the distance between them='))
+g=(6.67)*(pow(10,-11))
+print('GF=',(g*m1*m2)/(d*d))
